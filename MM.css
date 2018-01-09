@@ -4,9 +4,10 @@ body{
 	padding: 0;
 	background: url(img/trees-flowers-gradient-top.jpg) no-repeat;
     background-size: cover;
+    position: relative;
 }
 html{
-  font-size:10px;
+  font-size:10px;position: relative;
   }
  @media only screen and (min-width: 320px){
    html {
@@ -156,6 +157,7 @@ html{
     width: 20%;
     height: 50%;
     float: left;
+    margin-left: 0.9rem;
 
 }
 .chanpin .chanpin_top li{
@@ -169,13 +171,14 @@ html{
 .chanpin .chanpin_top li a{
     color: white;
 }
+
 .chanpin .chanpin_top li:nth-child(1){
     border-radius: 0.2rem 0.2rem 0 0;
     /*border: 1px solid #fff;*/
     background: rgba(255, 255, 255,0.8);
-    color:#000000;
+
 }
-.chanpin .chanpin_top li:nth-child(1){
+.chanpin .chanpin_top li:nth-child(1) a{
     color:#000000;
 }
 .chanpin .caidan{
@@ -426,6 +429,13 @@ footer{
 .icon-heart,.iconArtboard{
     color: #307023;
 }
-
+.iconTree{
+    position: absolute;
+    left: 18.1%;
+    top: 8.8rem;
+    font-size: 1.5rem;
+    -moz-transform:rotate(-40deg);
+    -webkit-transform:rotate(-40deg);
+}
 
 
