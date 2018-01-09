@@ -1,0 +1,431 @@
+@import "//at.alicdn.com/t/font_528340_owhttc6ejmleg66r.css";
+body{
+	margin: 0;
+	padding: 0;
+	background: url(img/trees-flowers-gradient-top.jpg) no-repeat;
+    background-size: cover;
+}
+html{
+  font-size:10px;
+  }
+ @media only screen and (min-width: 320px){
+   html {
+     font-size: 62.5% !important;
+   }
+ }
+ @media only screen and (min-width: 640px){
+   html {
+     font-size: 62.5%  !important;
+   }
+ }
+ @media only screen and (min-width: 750px){
+   html {
+     font-size: 125% !important;
+   }
+ }
+ @media only screen and (min-width: 1242px){
+   html {
+     font-size: 125%!important;
+   }
+
+ }
+ .container{
+
+	width:940px;
+
+	height:100%;
+
+	position:relative;
+
+	left:50%;
+
+	margin-left:-470px;
+}
+ .containers{
+     width:960px;
+
+     height:100%;
+
+     position:relative;
+
+     left:50%;
+
+     margin-left:-480px;
+ }
+
+ /*topbar*/
+ #topbar{
+ 	width: 45%;
+ 	float: right;
+    margin-top: 0.5rem;
+
+ }
+#topbar a{
+    color: white;
+}
+#topbar ul{
+    float: right;
+}
+#topbar ul li{
+     float: left;
+     font: 1.1rem;
+     color: #fff;
+     margin-left: 0.5rem;
+     border: 0.1rem solid #eee;
+     border-bottom: none;
+     border-left: none;
+     border-top:none ;
+     padding-right: 0.5rem;
+
+ }
+ /*select*/
+.select_logo img{
+    margin-top: 1rem;
+    float: left;
+}
+.select_sousuo{
+    float: left;
+    margin-left: 8.2rem;
+    margin-top: 1rem;
+    padding: 0;
+}
+.select_sousuo button{
+    display: inline-block;
+    width: 3rem;
+    height: 1.7rem;
+    background: green;
+    border: 0;
+
+}
+.select_sousuo input{
+    float: left;
+    width: 8rem;
+    height: 1.5rem;
+
+}
+.select_sousuo button:nth-child(1){
+    float: left;
+    width: 5rem;
+    height: 1.7rem;
+    background: #Ece7DF;
+    border-radius: 0.2rem 0 0 0.2rem;
+
+}
+.select_sousuo .btn_two{
+    float: right;
+    margin-right: 1rem;
+    border-radius: 0 0.2rem 0.2rem 0;
+
+
+}
+.select_shopping{
+    float: right;
+    margin-top: 1rem;
+}
+.select_shopping button{
+    display: inline-block;
+    border: 0;
+    width: 3rem;
+    height: 1.7rem;
+    float: left;
+}
+.select_shopping button:nth-child(1){
+    border-radius: 0.2rem 0 0 0.2rem;
+    margin-right: 0.01rem;
+
+}
+.select_shopping button:nth-child(2){
+    border-radius: 0 0.2rem 0.2rem 0;
+    width: 5rem;
+
+}
+.select_shopping button:nth-child(3){
+    margin-left: 1rem;
+    background: green;
+    border-radius: 0.2rem  0.2rem;
+    color: #fff;
+}
+/*产品*/
+.chanpin{
+    width: 100%;
+    height: 4rem;
+    margin-top: 1rem;
+    float: left;
+}
+.chanpin .chanpin_top{
+    width: 20%;
+    height: 50%;
+    float: left;
+
+}
+.chanpin .chanpin_top li{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 2rem;
+
+}
+.chanpin .chanpin_top li a{
+    color: white;
+}
+.chanpin .chanpin_top li:nth-child(1){
+    border-radius: 0.2rem 0.2rem 0 0;
+    /*border: 1px solid #fff;*/
+    background: rgba(255, 255, 255,0.8);
+    color:#000000;
+}
+.chanpin .chanpin_top li:nth-child(1){
+    color:#000000;
+}
+.chanpin .caidan{
+    width: 100%;
+    height: 50%;
+    float: left;
+
+}
+.chanpin .caidan .chanpin_bottom {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+
+}
+.chanpin .caidan .chanpin_bottom li{
+    width: 12%;
+    height: 70%;
+    float: left;
+    margin-top: 0.4rem;
+    text-align: center;
+    line-height: 1.5rem;
+    border: 0.01rem solid #285E1d;
+    border-bottom: none;
+    border-left: none;
+    border-top:none ;
+
+
+
+}
+.chanpin .caidan .chanpin_bottom li a{
+    display: inline-block;
+    height: 1rem;
+    color: #285E1d;
+
+}
+.chanpin .caidan .chanpin_bottom li:last-child{
+    border-right: none;
+}
+.chanpin_green{
+    width: 100%;
+    height: 0.2rem;
+    background: green;
+    float: left;
+}
+/*img*/
+.img_Left{
+    float: left;
+    width: 64.5%;
+    height: 27.9rem;
+    overflow: hidden;
+
+}
+.img_Left ul:nth-child(1){
+    width: 8888rem;
+    height: 60%;
+    position: relative;
+    left: 0;
+    top: 0;
+
+}
+.img_Left ul:nth-child(1) li{
+    float: left;
+    height: 100%;
+
+}
+.img_Left ul:nth-child(1) li img{
+    width: 100%;
+    height: 100%;
+}
+.img_Left ul:nth-child(2){
+    width: 100%;
+    height: 40%;
+}
+.img_Left ul:nth-child(2) li{
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.img_Left ul:nth-child(2) li strong{
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+}
+.img_Left ul:nth-child(2) li p{
+    position: absolute;
+    left: 0.5rem;
+    top: 3rem;
+}
+/*img_right*/
+.img_Right{
+    float: right;
+    width: 35.5%;
+    height: 27.9rem;
+}
+.img_Right span{
+    width: 100%;
+    display: block;
+    height: 33.3%;
+    position: relative;
+}
+.img_Right span:nth-child(1){
+    height: 27%;
+}
+.img_Right span:nth-child(3){
+    height: 39.8%;
+}
+.img_Right img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.img_Right img:nth-child(2){
+    width: 100%;
+    height: 35%;
+}
+.img_Right span p{
+    position: absolute;
+    left: 0.5rem;
+    top: 3rem;
+}
+.img_Right span strong{
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+}
+/*border*/
+.img_border{
+    float: left;
+    width: 100%;
+    height: 1rem;
+    background:#fff;
+    border:0.1rem solid #eee;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+/*media*/
+.media{
+    width: 100%;
+    height:12rem;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background: #fff;
+}
+.media li{
+    margin: 0;
+    width: 30%;
+    height: 40%;
+    text-align: center;
+
+}
+.media li:nth-child(1){
+    margin-left:2.5rem;
+}
+.media li:nth-child(4){
+    margin-left:2.5rem;
+}
+.media li img{
+    float: left;
+    margin-top: 5%;
+}
+.h4{
+    margin-top: 10%;
+    font-size: 1em;
+    color: #40922f;
+}
+/*营业*/
+.yingye{
+    float: left;
+    width: 100%;
+    height: 10rem;
+    background: url("img/section-3-bg.jpg") no-repeat;
+    background-size: cover;
+
+}
+.yingye_top{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yingye_top img{
+   margin-left: 3rem;
+}
+.yingye_bottom{
+
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 2.5rem;
+}
+/*footer*/
+footer{
+
+
+}
+.footer_top{
+    float: left;
+    width: 100%;
+    height: 8rem;
+    margin-top: 2rem;
+    background: url('//cdncn.melaleuca.com.cn/Images/Footer/footer_center2.jpg') no-repeat left top;
+    background-size: cover;
+}
+.footer_top ul{
+    width: 20%;
+    float: left;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+
+}
+.footer_top ul select{
+    display: block;
+    width: 9rem;
+    height: 1rem;
+
+}
+.footer_bottom{
+    float: left;
+    width: 100%;
+    height: 2.6rem;
+    background: url('//cdncn.melaleuca.com.cn/Images/Footer/footer_bottom2.png') no-repeat left top;
+    background-size: cover;
+}
+.footer_bottom p{
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-left:3rem
+
+}
+.footer_bottom h3{
+    display: inline-block;
+    margin-left:40%;
+    margin-top: 0.5rem;
+}
+/*图标*/
+.icon-search{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;margin-left: -1rem;
+}
+.icon-heart,.iconArtboard{
+    color: #307023;
+}
+
+
+
