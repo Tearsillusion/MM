@@ -136,6 +136,10 @@ html{
 .select_shopping button:nth-child(1){
     border-radius: 0.2rem 0 0 0.2rem;
     margin-right: 0.01rem;
+    border:0.01rem solid #aaa;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
 
 }
 .select_shopping button:nth-child(2){
